@@ -1,0 +1,63 @@
+/* header */ 
+header { 
+    display: block;
+    background-color: #ebebeb;
+    text-align: center; 
+    font-family: 'arial','helvetica neue', helvetica, sans-serif;
+    color: #777;
+    width: 100%;
+    max-width: 960px;
+    font-size: 12px;
+    padding: 20px;
+    clear: both;
+    margin: 10px 100px 10px 120px;
+}
+
+/* nav */
+#navDiv {
+    display: block;
+    background-color: #ebebeb;
+    text-align: center; 
+    font-family: 'arial','helvetica neue', helvetica, sans-serif;
+    color: #777;
+    width: 100%;
+    max-width: 960px;
+    font-size: 12px;
+    padding: 20px;
+    clear: both;
+    margin: 10px 100px 10px 120px; 
+}
+
+/* section */ 
+#secDiv {
+    float: left;
+    clear: left;
+    color: #777;
+    font-size: 12px;
+    display: block;
+    /*padding: 20px;*/
+    background: #ebebeb;
+    padding: 150px 200px 150px 200px;
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
+    width: 495px;
+}
+
+/* aside */
+#asideDiv {
+   /* position: relative;
+    left: -10px;
+    bottom: -10px;*/
+    float: right;
+    color: #777;
+    font-size: 12px;
+    display: block;
+    /*padding: 60px;*/
+    background: #ebebeb;
+    /*margin-left: 120px;
+    margin-top: 15px;
+    margin-right: 450px;*/  
+    font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
+    width: 495px; 
+}
