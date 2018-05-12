@@ -14,7 +14,7 @@ header {
 }
 
 /* nav */
-#navDiv {
+nav {
     display: block;
     background-color: #ebebeb;
     text-align: center; 
@@ -29,7 +29,7 @@ header {
 }
 
 /* section */ 
-#secDiv {
+section {
     float: left;
     clear: left;
     color: #777;
@@ -45,7 +45,7 @@ header {
 }
 
 /* aside */
-#asideDiv {
+aside {
    /* position: relative;
     left: -10px;
     bottom: -10px;*/
@@ -60,4 +60,41 @@ header {
     margin-right: 450px;*/  
     font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
     width: 495px; 
+}
+
+
+/* footer */
+footer {
+    clear: both;
+    display: block;
+    background-color: #ebebeb;
+    text-align: center; 
+    font-family: 'arial','helvetica neue', helvetica, sans-serif;
+    color: #777;
+    width: 100%;
+    max-width: 960px;
+    font-size: 12px;
+    padding: 20px;
+    margin: 10px 100px 10px 120px; 
+
+}
+
+body {
+    background: #777;
+    font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+article {
+    background: #777;
+    color: #ebebeb;
+    display: block;
+}
+
+h1, p {
+    background: #ebebeb;
+    color: #777;
+    display: block;
 }
