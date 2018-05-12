@@ -31,17 +31,17 @@ nav {
 /* section */ 
 section {
     float: left;
-    clear: left;
     color: #777;
     font-size: 12px;
     display: block;
     /*padding: 20px;*/
     background: #ebebeb;
-    padding: 150px 200px 150px 200px;
+    padding: 150px 50px;
     margin-left: 120px;
     margin-top: 15px;
     font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
-    width: 495px;
+    width: 20%;
+    text-align: center;
 }
 
 /* aside */
@@ -49,17 +49,19 @@ aside {
    /* position: relative;
     left: -10px;
     bottom: -10px;*/
-    float: right;
+    float: left;
     color: #777;
     font-size: 12px;
     display: block;
-    /*padding: 60px;*/
+    margin-left: 120px;
+    margin-top: 15px;
+    /*padding-left: 20%;*/
     background: #ebebeb;
     /*margin-left: 120px;
     margin-top: 15px;
     margin-right: 450px;*/  
     font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
-    width: 495px; 
+    width: 20%; 
 }
 
 
@@ -91,6 +93,7 @@ article {
     background: #777;
     color: #ebebeb;
     display: block;
+    padding: 10px;
 }
 
 h1, p {
